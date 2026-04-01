@@ -47,5 +47,10 @@ public class Cart {
         }
         qtyOrdered -= deleted;
     }
+    public void printAll(){
+        for(int i =0; i<qtyOrdered; i++){
+            System.out.println(itemsOrdered[i].getTitle());
+        }
+    }
 }
 
