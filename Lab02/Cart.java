@@ -15,6 +15,10 @@ public class Cart {
         if(c==MAX_NUMBER_ORDERED-1 || c==MAX_NUMBER_ORDERED) System.out.println("The cart is almost full");
         else System.out.println("The disc has been added");
     }
+
+    public void addDigitalVideoDisc(DigitalVideoDisc ... dvd){
+        
+    }
     public double totalCost(){
         double tc = 0;
         for(int i =0 ; i<qtyOrdered; i++){
