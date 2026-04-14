@@ -18,7 +18,8 @@ public class Aims {
     DigitalVideoDisc dvd3 = new DigitalVideoDisc("Asagao to Kase-san",
             "Yuri", 18.99f);
     
-
+    
+    anOrder.addDigitalVideoDisc(dvd3, dvd1);
     //print total cost of the items in the cart
     System.out.println("Total Cost is: ");
     System.out.println(anOrder.totalCost());
