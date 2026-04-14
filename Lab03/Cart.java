@@ -15,7 +15,7 @@ public class Cart {
         if(c==MAX_NUMBER_ORDERED-1 || c==MAX_NUMBER_ORDERED) System.out.println("The cart is almost full");
         else System.out.println("The disc has been added");
     }
-    public void addDigitalVideoDisc(DigitalVideoDisc[] dArray){
+    public void addDigitalVideoDisc(DigitalVideoDisc ... dArray){
         if(qtyOrdered + dArray.length > MAX_NUMBER_ORDERED){
             System.out.println("Da order qua nhieu");
             return;
