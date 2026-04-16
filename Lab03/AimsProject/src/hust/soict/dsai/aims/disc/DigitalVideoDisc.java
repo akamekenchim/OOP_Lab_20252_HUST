@@ -1,4 +1,4 @@
-package Lab03;
+package Lab03.AimsProject.src.hust.soict.dsai.aims.disc;
 public class DigitalVideoDisc{
     private String title;
     private String category;

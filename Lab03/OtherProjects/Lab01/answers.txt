@@ -1,0 +1,8 @@
+Question 6.1
+Nếu người dùng chọn "Cancel" thì kết quả sẽ hiện giống như khi chọn "No".
+Lý do: (option == JOptionPane.YES_OPTION ? "Yes" : "No")
+expression này sẽ trả về Yes nếu YES_OPTION được bấm, với tất cả cái còn lại sẽ trả về No.
+
+Muốn customize, chúng ta dùng JOptionPane.showOptionDialog
+
+

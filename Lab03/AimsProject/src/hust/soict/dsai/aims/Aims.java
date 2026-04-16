@@ -1,4 +1,7 @@
-package Lab03;
+package Lab03.AimsProject.src.hust.soict.dsai.aims;
+
+import Lab03.AimsProject.src.hust.soict.dsai.aims.cart.Cart;
+import Lab03.AimsProject.src.hust.soict.dsai.aims.disc.DigitalVideoDisc;
 
 public class Aims {
     public static void main(String[] args) {
